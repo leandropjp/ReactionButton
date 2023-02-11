@@ -10,56 +10,56 @@ import UIKit
 import ReactionButton
 
 final class SampleTableViewController: UITableViewController {
-    
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
 
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
-    }
+  override func numberOfSections(in tableView: UITableView) -> Int {
+    return 1
+  }
 
-    
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return tableView.dequeueReusableCell(withIdentifier: "SampleCell", for: indexPath)
-    }
+  override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    return 10
+  }
+
+
+  override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    return tableView.dequeueReusableCell(withIdentifier: "SampleCell", for: indexPath)
+  }
 
 }
 
 final class CustomSelectorView: ReactionButton, ReactionButtonDataSource {
-    
-    let optionsDataset = [
-        (imageName: "img_1", title: "Like"),
-        (imageName: "img_2", title: "Smile"),
-        (imageName: "img_3", title: "Heart"),
-        (imageName: "img_4", title: "Idea"),
-        (imageName: "img_5", title: "Slow"),
-        (imageName: "img_6", title: "Fast")
-    ]
-    
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        self.dataSource = self
+  func reactionButton(numberOfOptionsFor reactionButton: ReactionButton) -> Int {
+    optionsDataset.count
+  }
+
+  func reactionButton(_ reactionButton: ReactionButton, viewForIndex index: Int) -> UIView {
+    let option = optionsDataset[index].imageName
+    guard let image = UIImage(named: option) else {
+      return UIView()
     }
-    
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        self.dataSource = self
-    }
-    
-    func numberOfOptions(in selector: ReactionButton) -> Int {
-        optionsDataset.count
-    }
-    
-    func ReactionSelector(_ selector: ReactionButton, viewForIndex index: Int) -> UIView {
-        let option = optionsDataset[index].imageName
-        guard let image = UIImage(named: option) else {
-            return UIView()
-        }
-        return UIImageView(image: image)
-    }
-    
-    func ReactionSelector(_ selector: ReactionButton, nameForIndex index: Int) -> String {
-        optionsDataset[index].title
-    }
+    return UIImageView(image: image)
+  }
+
+  func reactionButton(_ reactionButton: ReactionButton, nameForIndex index: Int) -> String {
+    optionsDataset[index].title
+  }
+
+
+  let optionsDataset = [
+    (imageName: "img_1", title: "Like"),
+    (imageName: "img_2", title: "Smile"),
+    (imageName: "img_3", title: "Heart"),
+    (imageName: "img_4", title: "Idea"),
+    (imageName: "img_5", title: "Slow"),
+    (imageName: "img_6", title: "Fast")
+  ]
+
+  override init(frame: CGRect) {
+    super.init(frame: frame)
+    self.dataSource = self
+  }
+
+  required init?(coder aDecoder: NSCoder) {
+    super.init(coder: aDecoder)
+    self.dataSource = self
+  }
 }
