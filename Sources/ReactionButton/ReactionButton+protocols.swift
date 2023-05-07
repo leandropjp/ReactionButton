@@ -8,53 +8,53 @@
 import UIKit
 
 /// Describes a type that is informed of events occurring within a `ReactionButton`.
-public protocol ReactionButtonDelegate: class {
+public protocol ReactionButtonDelegate: AnyObject {
 
-    /// The user selected an option from the sender.
-    ///
-    /// - Parameters:
-    ///   - sender: The `ReactionButton` which is sending the action.
-    ///   - index: Index of the selected option.
-    func ReactionSelector(_ sender: ReactionButton, didSelectedIndex index: Int)
+  /// The user selected an option from the sender.
+  ///
+  /// - Parameters:
+  ///   - reactionButton: The `ReactionButton` which is sending the action.
+  ///   - index: Index of the selected option.
+  func reactionButton(_ reactionButton: ReactionButton, didSelectIndex index: Int)
 
-    /// The user is moving through the options.
-    /// - Parameters:
-    ///   - sender: The `ReactionButton` which is sending the action.
-    ///   - index: Index of the selected option.
-    func ReactionSelector(_ sender: ReactionButton, didChangeFocusTo index: Int?)
-    
-    /// The user cancelled the option selection.
-    ///
-    /// - Parameter sender: The `ReactionButton` which is sending the action.
-    func ReactionSelectorDidCancelledAction(_ sender: ReactionButton)
-    
+  /// The user is moving through the options.
+  /// - Parameters:
+  ///   - reactionButton: The `ReactionButton` which is sending the action.
+  ///   - index: Index of the selected option.
+  func reactionButton(_ reactionButton: ReactionButton, didChangeFocusTo index: Int?)
+
+  /// The user cancelled the option selection.
+  ///
+  /// - Parameter reactionButton: The `ReactionButton` which is sending the action.
+  func reactionButton(didCancelActionFor reactionButton: ReactionButton)
+
 }
 
 public protocol ReactionButtonDelegateLayout: ReactionButtonDelegate {
-    func ReactionSelectorConfiguration(_ selector: ReactionButton) -> ReactionButton.Config
+  func reactionButton(configurationFor reactionButton: ReactionButton) -> ReactionButton.Config
 }
 
 public extension ReactionButtonDelegateLayout {
-    func ReactionSelectorConfiguration(_ selector: ReactionButton) -> ReactionButton.Config {
-        .default
-    }
+  func reactionButton(configurationFor reactionButton: ReactionButton) -> ReactionButton.Config {
+    .default
+  }
 }
 
 /// Default implementation for delegate
 public extension ReactionButtonDelegate {
-    func ReactionSelector(_ sender: ReactionButton, didSelectedIndex index: Int) {}
-    func ReactionSelector(_ sender: ReactionButton, didChangeFocusTo index: Int?) {}
-    func ReactionSelectorDidCancelledAction(_ sender: ReactionButton) {}
+  func reactionButton(_ reactionButton: ReactionButton, didSelectIndex index: Int) {}
+  func reactionButton(_ reactionButton: ReactionButton, didChangeFocusTo index: Int?) {}
+  func reactionButton(didCancelActionFor sender: ReactionButton) {}
 }
 
-public protocol ReactionButtonDataSource: class {
-    
-    /// Asks the data source to return the number of items in the ReactionButton.
-    func numberOfOptions(in selector: ReactionButton) -> Int
+public protocol ReactionButtonDataSource: AnyObject {
 
-    /// Asks the data source for the view of the specific item.
-    func ReactionSelector(_ selector: ReactionButton, viewForIndex index: Int) -> UIView
-    
-    /// Asks the data source for the name of the specific item.
-    func ReactionSelector(_ selector: ReactionButton, nameForIndex index: Int) -> String
+  /// Asks the data source to return the number of items in the ReactionButton.
+  func reactionButton(numberOfOptionsFor reactionButton: ReactionButton) -> Int
+
+  /// Asks the data source for the view of the specific item.
+  func reactionButton(_ reactionButton: ReactionButton, viewForIndex index: Int) -> UIView
+
+  /// Asks the data source for the name of the specific item.
+  func reactionButton(_ reactionButton: ReactionButton, nameForIndex index: Int) -> String
 }

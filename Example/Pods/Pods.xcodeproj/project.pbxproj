@@ -7,35 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0167EC59425DCB1241A6A32E610AC3AA /* ReactionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081132FF23AC14B72D80EC06FA0040DE /* ReactionButton.swift */; };
-		082B08E103A26399977E4FEEE4D02A43 /* EmojiSelectorView.Config+rect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A186FD5F7A49693BFDD63D62623BE9B /* EmojiSelectorView.Config+rect.swift */; };
-		157ED89F863C3436B6287D6AE97CBC5C /* UIView+animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2113D9F113220A95301999A4CF19EC5E /* UIView+animation.swift */; };
-		170F6CA354E56309407BA844717E0B5A /* Pods-ReactionButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8F17DAB918EEB9C05615F951A7939A8 /* Pods-ReactionButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1830969FC5B96C68D5040B17FC810C93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1F421860EA1A479BAE2035BCEC1CC5ED /* ReactionButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B61CDF9032C235FC37180845A68333 /* ReactionButton-dummy.m */; };
-		2B342ABCA13861F220FCF6BA37CC76FB /* UIColor+Selector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B8CBE2D4256025613996BB89C6E365 /* UIColor+Selector.swift */; };
-		497A4105A7E79EE4175B6549A7FBF55C /* Pods-ReactionButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFC70B9345F00F95206131A0C436F87 /* Pods-ReactionButton_Tests-dummy.m */; };
-		4D030FA677AFEE2D2F18CF57C93EAF98 /* ReactionButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E768FF67DD737AD53C01159C6658849 /* ReactionButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5AFD1C12956D52764C5A0A85AB99592D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		6C7AD3F1372328965A3C3F2A7603FA14 /* UIView+contains.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82435B1C058F55240E7C92FE5DDD2EA /* UIView+contains.swift */; };
-		751C47A864246551E7A5D9688B891EE4 /* CGSize+init.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF99FE7DAA5937109C9B2BD589178DB /* CGSize+init.swift */; };
-		7C8432391B83AB3104BCE6C8912A4E14 /* ReactionButton+protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C91FBECFD466E2487D30135A1977E /* ReactionButton+protocols.swift */; };
-		7CFAC2EC8265E7B12943AC5FCDDAAADA /* CGRect+init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4EF1DEC66E720A83356272E3A88AF4 /* CGRect+init.swift */; };
-		9B94EE2E346C365A29BD93F95F2B5AB6 /* Pods-ReactionButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB0FFF5A310D2C9C1AA25D2BB3D2C42 /* Pods-ReactionButton_Example-dummy.m */; };
-		B3A881704A623E4BAF3D7D616DEDC1B3 /* Pods-ReactionButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 912C974DCE3329FC3CF832D442E39EBC /* Pods-ReactionButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B42822CB3ED0E784119B70C44A6C1074 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D515620C6EA8CF7ECB80D1C186EC9BB4 /* ReactionButtonConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E6B4CADB733A766553A36E9D1E4972 /* ReactionButtonConfig.swift */; };
+		086A05B55855FACEE581E87759EFEDE3 /* ReactionButton+protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4605C43C49F7BD9472E80CD1110AF0E3 /* ReactionButton+protocols.swift */; };
+		0E429B29A381E97AC3538C542FDE6FC8 /* ReactionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBC52C417CA32AAFC008CA0729C6D14 /* ReactionButton.swift */; };
+		1C469506EE55EF15D2D174F222558BE1 /* Pods-ReactionButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 912C974DCE3329FC3CF832D442E39EBC /* Pods-ReactionButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B9F10A4000DA655F562266FAAB35B83 /* CGRect+init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901B6573F92580D82EF8F032D8CA8B21 /* CGRect+init.swift */; };
+		2D63F8ABB3BD4DF91460B8B568677C73 /* UIView+contains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD93BDF09F232D0D249541BE3C6373F /* UIView+contains.swift */; };
+		5122F9AC7AAAB42B06835868A4524803 /* EmojiSelectorView.Config+rect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887261F94C4F7BBA9155E1AAF759A7BC /* EmojiSelectorView.Config+rect.swift */; };
+		665F67AAFBDCFD637D28B7B7732064FB /* Pods-ReactionButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB0FFF5A310D2C9C1AA25D2BB3D2C42 /* Pods-ReactionButton_Example-dummy.m */; };
+		66898CEDDB50FA8BFA9EB42482EBE0E0 /* Pods-ReactionButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFC70B9345F00F95206131A0C436F87 /* Pods-ReactionButton_Tests-dummy.m */; };
+		6BB6F90237E12D9FA50C8B8D42EE7800 /* ReactionButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDBBF851ED31E941C8FB8BC5E3A77F5 /* ReactionButton-dummy.m */; };
+		75A71E13853D059529AB10D80FEE7069 /* ReactionButtonConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA69C75828092F0377817C4AA3E46E /* ReactionButtonConfig.swift */; };
+		84E5F3216F650C84F70EE08D46D529A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BD9E8B46EAD810A69AA833C5F6E54D1B /* Pods-ReactionButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8F17DAB918EEB9C05615F951A7939A8 /* Pods-ReactionButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF139CD79B851DDF7D9C9A20ABE304E9 /* ReactionButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C62A3004BE6C4417C1C2649E5F0B5EEF /* ReactionButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F8FC6F1A6529DD92D82A7C7F09A6C9 /* UIView+animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5DF69D0AB488BEF117B20E1AEF287A /* UIView+animation.swift */; };
+		DA2650F37C1BCC137D2B56CCB78312FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DF26E31265688856176FDFDA81F3CA04 /* UIColor+Selector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E4628EA19473F1A904FACDAD39B6A6 /* UIColor+Selector.swift */; };
+		E6E16022358A297E4B403258D4BCEF41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		ED28AB9792DB44A85C854C3607BAE2E4 /* CGSize+init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A07A7236070F319BC701A6C9EBC8B1 /* CGSize+init.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1752E607176C0AC28D875764F4072D92 /* PBXContainerItemProxy */ = {
+		0D49C1C3E3B6367963D7DC858B955B8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 12541455ED6C44722C8E828D91681462;
 			remoteInfo = ReactionButton;
 		};
-		CF2A0F9AF88C3D30B42167A3C03F5EC5 /* PBXContainerItemProxy */ = {
+		86C76808C50AC4F7F6E092E9AD9707BB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -45,71 +45,72 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		081132FF23AC14B72D80EC06FA0040DE /* ReactionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReactionButton.swift; path = Sources/ReactionButton/ReactionButton.swift; sourceTree = "<group>"; };
-		0A186FD5F7A49693BFDD63D62623BE9B /* EmojiSelectorView.Config+rect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "EmojiSelectorView.Config+rect.swift"; sourceTree = "<group>"; };
 		0DFC70B9345F00F95206131A0C436F87 /* Pods-ReactionButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReactionButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		1EC547090269357B7E36A4B1F2B78C2B /* Pods-ReactionButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReactionButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2113D9F113220A95301999A4CF19EC5E /* UIView+animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+animation.swift"; sourceTree = "<group>"; };
 		23F11AEB8DDECBFDED097EFBF6000571 /* Pods-ReactionButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactionButton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2BBC52C417CA32AAFC008CA0729C6D14 /* ReactionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReactionButton.swift; path = Sources/ReactionButton/ReactionButton.swift; sourceTree = "<group>"; };
 		3283995A80FCDC53AA21EA7B57C06EBF /* Pods-ReactionButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReactionButton_Example-Info.plist"; sourceTree = "<group>"; };
 		347AA17A84FE471B591F69B3A097F11D /* Pods-ReactionButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactionButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		397A92D4BFD73E3ED786F5137A184D91 /* Pods-ReactionButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactionButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		40B8CBE2D4256025613996BB89C6E365 /* UIColor+Selector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Selector.swift"; sourceTree = "<group>"; };
-		4F59E629289283B603368F07FB6545CB /* ReactionButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ReactionButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		550E6616961A8B94990F7221D0D5F973 /* ReactionButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReactionButton-Info.plist"; sourceTree = "<group>"; };
-		5F4EF1DEC66E720A83356272E3A88AF4 /* CGRect+init.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGRect+init.swift"; sourceTree = "<group>"; };
-		64E6B4CADB733A766553A36E9D1E4972 /* ReactionButtonConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReactionButtonConfig.swift; path = Sources/ReactionButton/ReactionButtonConfig.swift; sourceTree = "<group>"; };
-		66519E80B48EA0A8B21331486D2970A2 /* Pods_ReactionButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReactionButton_Tests.framework; path = "Pods-ReactionButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DD500BD48C3A95EBEB73F3B0AC8B19A /* ReactionButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReactionButton.framework; path = ReactionButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E768FF67DD737AD53C01159C6658849 /* ReactionButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReactionButton-umbrella.h"; sourceTree = "<group>"; };
-		87590F7772DA23CC2148BBDA0FA46196 /* ReactionButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReactionButton-prefix.pch"; sourceTree = "<group>"; };
-		8D1ACAD95B13DFE6B645C23F70611EF0 /* Pods_ReactionButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReactionButton_Example.framework; path = "Pods-ReactionButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E8C91FBECFD466E2487D30135A1977E /* ReactionButton+protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ReactionButton+protocols.swift"; path = "Sources/ReactionButton/ReactionButton+protocols.swift"; sourceTree = "<group>"; };
-		8F0D9657FA2D47E9A181A87F8D394AEA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3C290FFE00880B4F8E5341B16910C337 /* ReactionButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReactionButton-prefix.pch"; sourceTree = "<group>"; };
+		3CD93BDF09F232D0D249541BE3C6373F /* UIView+contains.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+contains.swift"; sourceTree = "<group>"; };
+		45D4731A33ED72641354CBD077BE8C9F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4605C43C49F7BD9472E80CD1110AF0E3 /* ReactionButton+protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ReactionButton+protocols.swift"; path = "Sources/ReactionButton/ReactionButton+protocols.swift"; sourceTree = "<group>"; };
+		63A07A7236070F319BC701A6C9EBC8B1 /* CGSize+init.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGSize+init.swift"; sourceTree = "<group>"; };
+		66519E80B48EA0A8B21331486D2970A2 /* Pods-ReactionButton_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ReactionButton_Tests"; path = Pods_ReactionButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E4628EA19473F1A904FACDAD39B6A6 /* UIColor+Selector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Selector.swift"; sourceTree = "<group>"; };
+		6C1F0F7A4A5E47D33EF9AC2D4A00307B /* ReactionButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReactionButton.modulemap; sourceTree = "<group>"; };
+		6DD500BD48C3A95EBEB73F3B0AC8B19A /* ReactionButton */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReactionButton; path = ReactionButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A5DF69D0AB488BEF117B20E1AEF287A /* UIView+animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+animation.swift"; sourceTree = "<group>"; };
+		7BDBBF851ED31E941C8FB8BC5E3A77F5 /* ReactionButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReactionButton-dummy.m"; sourceTree = "<group>"; };
+		84BA69C75828092F0377817C4AA3E46E /* ReactionButtonConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReactionButtonConfig.swift; path = Sources/ReactionButton/ReactionButtonConfig.swift; sourceTree = "<group>"; };
+		887261F94C4F7BBA9155E1AAF759A7BC /* EmojiSelectorView.Config+rect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "EmojiSelectorView.Config+rect.swift"; sourceTree = "<group>"; };
+		8D1ACAD95B13DFE6B645C23F70611EF0 /* Pods-ReactionButton_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ReactionButton_Example"; path = Pods_ReactionButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		901B6573F92580D82EF8F032D8CA8B21 /* CGRect+init.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGRect+init.swift"; sourceTree = "<group>"; };
 		912C974DCE3329FC3CF832D442E39EBC /* Pods-ReactionButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReactionButton_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9A90DADD4D20F75F230A9D2BDD72CA53 /* Pods-ReactionButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReactionButton_Example.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E50AB4F3071F27A8C24F59CBDD05124 /* Pods-ReactionButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReactionButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A5E6EEC3E04F0B8B3A5AAC60F7DAB28B /* Pods-ReactionButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactionButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF64AA14CCCEE0BED01FE0FE17F6922A /* ReactionButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ReactionButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BFA3C4A4A9A0114CA9274E95266FB0D6 /* Pods-ReactionButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReactionButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C0790C2C73215E3C9AE8F49040B61224 /* ReactionButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReactionButton.modulemap; sourceTree = "<group>"; };
-		C6A91FEC93556E03CDE296B8C81B829F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C62A3004BE6C4417C1C2649E5F0B5EEF /* ReactionButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReactionButton-umbrella.h"; sourceTree = "<group>"; };
 		C7FFA0FABFB808501451F2C026B641CF /* Pods-ReactionButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReactionButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C82435B1C058F55240E7C92FE5DDD2EA /* UIView+contains.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+contains.swift"; sourceTree = "<group>"; };
 		CB694CEC5496BC66EB177F7CBDFCA304 /* Pods-ReactionButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReactionButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D118D8678BD514BE3AA37112BF3B5B9A /* ReactionButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReactionButton-Info.plist"; sourceTree = "<group>"; };
+		D4236FE03E87C58A7858A42135959D79 /* ReactionButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReactionButton.release.xcconfig; sourceTree = "<group>"; };
 		D6FADF543D1FDB26E76F90254E59F682 /* Pods-ReactionButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReactionButton_Tests.modulemap"; sourceTree = "<group>"; };
-		E4B61CDF9032C235FC37180845A68333 /* ReactionButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReactionButton-dummy.m"; sourceTree = "<group>"; };
+		DDEF691A7973F20F6B09B3D6507544EF /* ReactionButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReactionButton.debug.xcconfig; sourceTree = "<group>"; };
 		E8F17DAB918EEB9C05615F951A7939A8 /* Pods-ReactionButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReactionButton_Example-umbrella.h"; sourceTree = "<group>"; };
-		F466A30AB3AA956307FF7838D45C5EC6 /* ReactionButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReactionButton.xcconfig; sourceTree = "<group>"; };
+		F950E710B9F19D00076BB7C91ACF8C14 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		F996EEB09C7FC61779E492A35DED0C11 /* Pods-ReactionButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReactionButton_Tests-Info.plist"; sourceTree = "<group>"; };
-		FBF99FE7DAA5937109C9B2BD589178DB /* CGSize+init.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGSize+init.swift"; sourceTree = "<group>"; };
 		FCB0FFF5A310D2C9C1AA25D2BB3D2C42 /* Pods-ReactionButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReactionButton_Example-dummy.m"; sourceTree = "<group>"; };
 		FD0A6CA1A83FD07B71C66B8819452E4C /* Pods-ReactionButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReactionButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1579099C2B3EAD3EB107DF4C04113F65 /* Frameworks */ = {
+		8780B8CF3933C5567438664F28980F41 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B42822CB3ED0E784119B70C44A6C1074 /* Foundation.framework in Frameworks */,
+				DA2650F37C1BCC137D2B56CCB78312FA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		270A910882AC3586755C073481078882 /* Frameworks */ = {
+		88638D0F2ED66C2FFB3CE8DBF82FAE46 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1830969FC5B96C68D5040B17FC810C93 /* Foundation.framework in Frameworks */,
+				84E5F3216F650C84F70EE08D46D529A2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A616DAD916F42586FF836D894BBAD99 /* Frameworks */ = {
+		9C09DF8B584925E2A714DA8833296E66 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AFD1C12956D52764C5A0A85AB99592D /* Foundation.framework in Frameworks */,
+				E6E16022358A297E4B403258D4BCEF41 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,26 +134,63 @@
 			path = "Target Support Files/Pods-ReactionButton_Tests";
 			sourceTree = "<group>";
 		};
-		5E4CF1FB0B7D86A3FE25D08363340F9A /* Extensions */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				5F4EF1DEC66E720A83356272E3A88AF4 /* CGRect+init.swift */,
-				FBF99FE7DAA5937109C9B2BD589178DB /* CGSize+init.swift */,
-				0A186FD5F7A49693BFDD63D62623BE9B /* EmojiSelectorView.Config+rect.swift */,
-				40B8CBE2D4256025613996BB89C6E365 /* UIColor+Selector.swift */,
-				2113D9F113220A95301999A4CF19EC5E /* UIView+animation.swift */,
-				C82435B1C058F55240E7C92FE5DDD2EA /* UIView+contains.swift */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
-			name = Extensions;
-			path = Sources/ReactionButton/Extensions;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D2D2B4222C435B634F50F1572F5EBB7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C1F0F7A4A5E47D33EF9AC2D4A00307B /* ReactionButton.modulemap */,
+				7BDBBF851ED31E941C8FB8BC5E3A77F5 /* ReactionButton-dummy.m */,
+				D118D8678BD514BE3AA37112BF3B5B9A /* ReactionButton-Info.plist */,
+				3C290FFE00880B4F8E5341B16910C337 /* ReactionButton-prefix.pch */,
+				C62A3004BE6C4417C1C2649E5F0B5EEF /* ReactionButton-umbrella.h */,
+				DDEF691A7973F20F6B09B3D6507544EF /* ReactionButton.debug.xcconfig */,
+				D4236FE03E87C58A7858A42135959D79 /* ReactionButton.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ReactionButton";
 			sourceTree = "<group>";
 		};
 		6E40287BA5B27362BB888DF273FECE83 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DC6BE866CE0395D58803308FE927E3E7 /* ReactionButton */,
+				73FE2F281098CDF042AA03CA30CE7E4F /* ReactionButton */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		73FE2F281098CDF042AA03CA30CE7E4F /* ReactionButton */ = {
+			isa = PBXGroup;
+			children = (
+				2BBC52C417CA32AAFC008CA0729C6D14 /* ReactionButton.swift */,
+				4605C43C49F7BD9472E80CD1110AF0E3 /* ReactionButton+protocols.swift */,
+				84BA69C75828092F0377817C4AA3E46E /* ReactionButtonConfig.swift */,
+				8BEC72A5A6B00DFE47AC1CFCDED3F695 /* Extensions */,
+				C165DA1C41ACE357E02BDCFBFF97A57A /* Pod */,
+				5D2D2B4222C435B634F50F1572F5EBB7 /* Support Files */,
+			);
+			name = ReactionButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8BEC72A5A6B00DFE47AC1CFCDED3F695 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				901B6573F92580D82EF8F032D8CA8B21 /* CGRect+init.swift */,
+				63A07A7236070F319BC701A6C9EBC8B1 /* CGSize+init.swift */,
+				887261F94C4F7BBA9155E1AAF759A7BC /* EmojiSelectorView.Config+rect.swift */,
+				69E4628EA19473F1A904FACDAD39B6A6 /* UIColor+Selector.swift */,
+				7A5DF69D0AB488BEF117B20E1AEF287A /* UIView+animation.swift */,
+				3CD93BDF09F232D0D249541BE3C6373F /* UIView+contains.swift */,
+			);
+			name = Extensions;
+			path = Sources/ReactionButton/Extensions;
 			sourceTree = "<group>";
 		};
 		901852B1E8772AE959CEC0A0CD05B90B /* Pods-ReactionButton_Example */ = {
@@ -172,20 +210,12 @@
 			path = "Target Support Files/Pods-ReactionButton_Example";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		C165DA1C41ACE357E02BDCFBFF97A57A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		C36203257002AC8B6821CE1A92CBE0FE /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				8F0D9657FA2D47E9A181A87F8D394AEA /* LICENSE */,
-				4F59E629289283B603368F07FB6545CB /* ReactionButton.podspec */,
-				C6A91FEC93556E03CDE296B8C81B829F /* README.md */,
+				F950E710B9F19D00076BB7C91ACF8C14 /* LICENSE */,
+				BF64AA14CCCEE0BED01FE0FE17F6922A /* ReactionButton.podspec */,
+				45D4731A33ED72641354CBD077BE8C9F /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -196,7 +226,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				6E40287BA5B27362BB888DF273FECE83 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E2A8201FAC72E1BF7856990FB3E32A58 /* Products */,
+				D2E0869B50C3A3950336800A6F993B71 /* Products */,
 				CFA8F1D012EFE01DCA33EEBEE55C59ED /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -213,73 +243,45 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DC6BE866CE0395D58803308FE927E3E7 /* ReactionButton */ = {
+		D2E0869B50C3A3950336800A6F993B71 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				081132FF23AC14B72D80EC06FA0040DE /* ReactionButton.swift */,
-				8E8C91FBECFD466E2487D30135A1977E /* ReactionButton+protocols.swift */,
-				64E6B4CADB733A766553A36E9D1E4972 /* ReactionButtonConfig.swift */,
-				5E4CF1FB0B7D86A3FE25D08363340F9A /* Extensions */,
-				C36203257002AC8B6821CE1A92CBE0FE /* Pod */,
-				F1DE4631E2107D048AAC2C3E2719A683 /* Support Files */,
-			);
-			name = ReactionButton;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		E2A8201FAC72E1BF7856990FB3E32A58 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8D1ACAD95B13DFE6B645C23F70611EF0 /* Pods_ReactionButton_Example.framework */,
-				66519E80B48EA0A8B21331486D2970A2 /* Pods_ReactionButton_Tests.framework */,
-				6DD500BD48C3A95EBEB73F3B0AC8B19A /* ReactionButton.framework */,
+				8D1ACAD95B13DFE6B645C23F70611EF0 /* Pods-ReactionButton_Example */,
+				66519E80B48EA0A8B21331486D2970A2 /* Pods-ReactionButton_Tests */,
+				6DD500BD48C3A95EBEB73F3B0AC8B19A /* ReactionButton */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F1DE4631E2107D048AAC2C3E2719A683 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C0790C2C73215E3C9AE8F49040B61224 /* ReactionButton.modulemap */,
-				F466A30AB3AA956307FF7838D45C5EC6 /* ReactionButton.xcconfig */,
-				E4B61CDF9032C235FC37180845A68333 /* ReactionButton-dummy.m */,
-				550E6616961A8B94990F7221D0D5F973 /* ReactionButton-Info.plist */,
-				87590F7772DA23CC2148BBDA0FA46196 /* ReactionButton-prefix.pch */,
-				6E768FF67DD737AD53C01159C6658849 /* ReactionButton-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ReactionButton";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		42ED1C69631C0E93CFAE41F248C6A3F3 /* Headers */ = {
+		8B1B1B369E49812ED22F8E61F527032D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				170F6CA354E56309407BA844717E0B5A /* Pods-ReactionButton_Example-umbrella.h in Headers */,
+				1C469506EE55EF15D2D174F222558BE1 /* Pods-ReactionButton_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4EACE777BCCBEB6CC4A88455F237F89 /* Headers */ = {
+		B8238914941D03C6A39DFFEFEECFC77D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D030FA677AFEE2D2F18CF57C93EAF98 /* ReactionButton-umbrella.h in Headers */,
+				BF139CD79B851DDF7D9C9A20ABE304E9 /* ReactionButton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F175F2F087F375B5E994C6C2736C856D /* Headers */ = {
+		D59AFA8DDB2D09112A80A541F57704BD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3A881704A623E4BAF3D7D616DEDC1B3 /* Pods-ReactionButton_Tests-umbrella.h in Headers */,
+				BD9E8B46EAD810A69AA833C5F6E54D1B /* Pods-ReactionButton_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,12 +290,12 @@
 /* Begin PBXNativeTarget section */
 		12541455ED6C44722C8E828D91681462 /* ReactionButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E6D3C0863798C9B87DBF43919B03B36 /* Build configuration list for PBXNativeTarget "ReactionButton" */;
+			buildConfigurationList = 1D8C2511C1D493D666F292AA496E93FA /* Build configuration list for PBXNativeTarget "ReactionButton" */;
 			buildPhases = (
-				C4EACE777BCCBEB6CC4A88455F237F89 /* Headers */,
-				2C53C46A5775D2052238DA28E31C696C /* Sources */,
-				9A616DAD916F42586FF836D894BBAD99 /* Frameworks */,
-				D0DD37D58FE93550346411AE3B5EAE2F /* Resources */,
+				B8238914941D03C6A39DFFEFEECFC77D /* Headers */,
+				35FCBAA3D6A434714F2E7000254CD45C /* Sources */,
+				88638D0F2ED66C2FFB3CE8DBF82FAE46 /* Frameworks */,
+				08520FB9AE6B584299D6B0B379A96702 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -301,45 +303,45 @@
 			);
 			name = ReactionButton;
 			productName = ReactionButton;
-			productReference = 6DD500BD48C3A95EBEB73F3B0AC8B19A /* ReactionButton.framework */;
+			productReference = 6DD500BD48C3A95EBEB73F3B0AC8B19A /* ReactionButton */;
 			productType = "com.apple.product-type.framework";
 		};
 		568C0B9A9698DAA944ED801676AF201D /* Pods-ReactionButton_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 781EDC52F2536B1B3A5867B3336821FD /* Build configuration list for PBXNativeTarget "Pods-ReactionButton_Tests" */;
+			buildConfigurationList = A8582D19904A7E59434104742E2EEEDC /* Build configuration list for PBXNativeTarget "Pods-ReactionButton_Tests" */;
 			buildPhases = (
-				F175F2F087F375B5E994C6C2736C856D /* Headers */,
-				A309A4545A4F539BE0F575AF11DC6E4B /* Sources */,
-				1579099C2B3EAD3EB107DF4C04113F65 /* Frameworks */,
-				89D97059765404987BFF0C8D47E9EA3B /* Resources */,
+				8B1B1B369E49812ED22F8E61F527032D /* Headers */,
+				BBB51BDE4F3D50C005559F863218B343 /* Sources */,
+				8780B8CF3933C5567438664F28980F41 /* Frameworks */,
+				EB8E75047483D8EB7A1488226399A996 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5DEB674558CCB04F44C557E37A76EA5E /* PBXTargetDependency */,
+				3608C08270B692166CA732150637A7A1 /* PBXTargetDependency */,
 			);
 			name = "Pods-ReactionButton_Tests";
-			productName = "Pods-ReactionButton_Tests";
-			productReference = 66519E80B48EA0A8B21331486D2970A2 /* Pods_ReactionButton_Tests.framework */;
+			productName = Pods_ReactionButton_Tests;
+			productReference = 66519E80B48EA0A8B21331486D2970A2 /* Pods-ReactionButton_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		C634F85740AAB9094C5EAD7E3D3F729D /* Pods-ReactionButton_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7ABD8B1DC0B7D14FDB168B2DC83D2D29 /* Build configuration list for PBXNativeTarget "Pods-ReactionButton_Example" */;
+			buildConfigurationList = C3E1500D6AD4900F180B010D6721BAE2 /* Build configuration list for PBXNativeTarget "Pods-ReactionButton_Example" */;
 			buildPhases = (
-				42ED1C69631C0E93CFAE41F248C6A3F3 /* Headers */,
-				373B8778C2A9567A04115AA5857382A9 /* Sources */,
-				270A910882AC3586755C073481078882 /* Frameworks */,
-				BA4005AE9207C6AEAC97AA5CA9AF15E5 /* Resources */,
+				D59AFA8DDB2D09112A80A541F57704BD /* Headers */,
+				3A96DECBAD0D8CB1190E4C364A71DAD3 /* Sources */,
+				9C09DF8B584925E2A714DA8833296E66 /* Frameworks */,
+				A61550EB4386928C175FB04B5E05DD55 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				463ABDAF9687BFF2622A85914BEA0F96 /* PBXTargetDependency */,
+				738A9653736BC9723DB8600AF120BC52 /* PBXTargetDependency */,
 			);
 			name = "Pods-ReactionButton_Example";
-			productName = "Pods-ReactionButton_Example";
-			productReference = 8D1ACAD95B13DFE6B645C23F70611EF0 /* Pods_ReactionButton_Example.framework */;
+			productName = Pods_ReactionButton_Example;
+			productReference = 8D1ACAD95B13DFE6B645C23F70611EF0 /* Pods-ReactionButton_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -348,19 +350,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E2A8201FAC72E1BF7856990FB3E32A58 /* Products */;
+			productRefGroup = D2E0869B50C3A3950336800A6F993B71 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -372,21 +374,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		89D97059765404987BFF0C8D47E9EA3B /* Resources */ = {
+		08520FB9AE6B584299D6B0B379A96702 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA4005AE9207C6AEAC97AA5CA9AF15E5 /* Resources */ = {
+		A61550EB4386928C175FB04B5E05DD55 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0DD37D58FE93550346411AE3B5EAE2F /* Resources */ = {
+		EB8E75047483D8EB7A1488226399A996 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -396,261 +398,64 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2C53C46A5775D2052238DA28E31C696C /* Sources */ = {
+		35FCBAA3D6A434714F2E7000254CD45C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CFAC2EC8265E7B12943AC5FCDDAAADA /* CGRect+init.swift in Sources */,
-				751C47A864246551E7A5D9688B891EE4 /* CGSize+init.swift in Sources */,
-				082B08E103A26399977E4FEEE4D02A43 /* EmojiSelectorView.Config+rect.swift in Sources */,
-				7C8432391B83AB3104BCE6C8912A4E14 /* ReactionButton+protocols.swift in Sources */,
-				1F421860EA1A479BAE2035BCEC1CC5ED /* ReactionButton-dummy.m in Sources */,
-				0167EC59425DCB1241A6A32E610AC3AA /* ReactionButton.swift in Sources */,
-				D515620C6EA8CF7ECB80D1C186EC9BB4 /* ReactionButtonConfig.swift in Sources */,
-				2B342ABCA13861F220FCF6BA37CC76FB /* UIColor+Selector.swift in Sources */,
-				157ED89F863C3436B6287D6AE97CBC5C /* UIView+animation.swift in Sources */,
-				6C7AD3F1372328965A3C3F2A7603FA14 /* UIView+contains.swift in Sources */,
+				2B9F10A4000DA655F562266FAAB35B83 /* CGRect+init.swift in Sources */,
+				ED28AB9792DB44A85C854C3607BAE2E4 /* CGSize+init.swift in Sources */,
+				5122F9AC7AAAB42B06835868A4524803 /* EmojiSelectorView.Config+rect.swift in Sources */,
+				0E429B29A381E97AC3538C542FDE6FC8 /* ReactionButton.swift in Sources */,
+				086A05B55855FACEE581E87759EFEDE3 /* ReactionButton+protocols.swift in Sources */,
+				6BB6F90237E12D9FA50C8B8D42EE7800 /* ReactionButton-dummy.m in Sources */,
+				75A71E13853D059529AB10D80FEE7069 /* ReactionButtonConfig.swift in Sources */,
+				DF26E31265688856176FDFDA81F3CA04 /* UIColor+Selector.swift in Sources */,
+				C0F8FC6F1A6529DD92D82A7C7F09A6C9 /* UIView+animation.swift in Sources */,
+				2D63F8ABB3BD4DF91460B8B568677C73 /* UIView+contains.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		373B8778C2A9567A04115AA5857382A9 /* Sources */ = {
+		3A96DECBAD0D8CB1190E4C364A71DAD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B94EE2E346C365A29BD93F95F2B5AB6 /* Pods-ReactionButton_Example-dummy.m in Sources */,
+				665F67AAFBDCFD637D28B7B7732064FB /* Pods-ReactionButton_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A309A4545A4F539BE0F575AF11DC6E4B /* Sources */ = {
+		BBB51BDE4F3D50C005559F863218B343 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				497A4105A7E79EE4175B6549A7FBF55C /* Pods-ReactionButton_Tests-dummy.m in Sources */,
+				66898CEDDB50FA8BFA9EB42482EBE0E0 /* Pods-ReactionButton_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		463ABDAF9687BFF2622A85914BEA0F96 /* PBXTargetDependency */ = {
+		3608C08270B692166CA732150637A7A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ReactionButton;
 			target = 12541455ED6C44722C8E828D91681462 /* ReactionButton */;
-			targetProxy = CF2A0F9AF88C3D30B42167A3C03F5EC5 /* PBXContainerItemProxy */;
+			targetProxy = 0D49C1C3E3B6367963D7DC858B955B8A /* PBXContainerItemProxy */;
 		};
-		5DEB674558CCB04F44C557E37A76EA5E /* PBXTargetDependency */ = {
+		738A9653736BC9723DB8600AF120BC52 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ReactionButton;
 			target = 12541455ED6C44722C8E828D91681462 /* ReactionButton */;
-			targetProxy = 1752E607176C0AC28D875764F4072D92 /* PBXContainerItemProxy */;
+			targetProxy = 86C76808C50AC4F7F6E092E9AD9707BB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		289710AA008F9CFE2A92C95E58F9733B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F466A30AB3AA956307FF7838D45C5EC6 /* ReactionButton.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ReactionButton/ReactionButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ReactionButton/ReactionButton-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ReactionButton/ReactionButton.modulemap";
-				PRODUCT_MODULE_NAME = ReactionButton;
-				PRODUCT_NAME = ReactionButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3C9C3F7EC698A07862AE34496864C78D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F466A30AB3AA956307FF7838D45C5EC6 /* ReactionButton.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ReactionButton/ReactionButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ReactionButton/ReactionButton-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ReactionButton/ReactionButton.modulemap";
-				PRODUCT_MODULE_NAME = ReactionButton;
-				PRODUCT_NAME = ReactionButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		725790F14ABC8CF3AEC73BC34003DAAB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23F11AEB8DDECBFDED097EFBF6000571 /* Pods-ReactionButton_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ReactionButton_Example/Pods-ReactionButton_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ReactionButton_Example/Pods-ReactionButton_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7DC0DC8342F203113C013564F795BE55 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5E6EEC3E04F0B8B3A5AAC60F7DAB28B /* Pods-ReactionButton_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ReactionButton_Tests/Pods-ReactionButton_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ReactionButton_Tests/Pods-ReactionButton_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BFC56ACDC7044690941DAF31027BE3C6 /* Debug */ = {
+		101F9D8D3E502060D9EB27292498865E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 397A92D4BFD73E3ED786F5137A184D91 /* Pods-ReactionButton_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -678,14 +483,12 @@
 			};
 			name = Debug;
 		};
-		E7905B0AF2F9EB643BBA39597BF780B9 /* Release */ = {
+		1C8EB11C5D027A6A1B0943B235F2C11B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 347AA17A84FE471B591F69B3A097F11D /* Pods-ReactionButton_Tests.release.xcconfig */;
+			baseConfigurationReference = DDEF691A7973F20F6B09B3D6507544EF /* ReactionButton.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -694,12 +497,44 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ReactionButton_Tests/Pods-ReactionButton_Tests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ReactionButton/ReactionButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReactionButton/ReactionButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReactionButton/ReactionButton.modulemap";
+				PRODUCT_MODULE_NAME = ReactionButton;
+				PRODUCT_NAME = ReactionButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4663E132DF453C7FE547A52D4F9E6697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23F11AEB8DDECBFDED097EFBF6000571 /* Pods-ReactionButton_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReactionButton_Example/Pods-ReactionButton_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ReactionButton_Tests/Pods-ReactionButton_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-ReactionButton_Example/Pods-ReactionButton_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -714,10 +549,11 @@
 			};
 			name = Release;
 		};
-		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -740,6 +576,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -778,14 +615,177 @@
 			};
 			name = Debug;
 		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A8583D22BF405EBEB5FC9474D3EFC193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4236FE03E87C58A7858A42135959D79 /* ReactionButton.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReactionButton/ReactionButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReactionButton/ReactionButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReactionButton/ReactionButton.modulemap";
+				PRODUCT_MODULE_NAME = ReactionButton;
+				PRODUCT_NAME = ReactionButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE7F93362ED416C57114E4DAE86925A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 347AA17A84FE471B591F69B3A097F11D /* Pods-ReactionButton_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReactionButton_Tests/Pods-ReactionButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReactionButton_Tests/Pods-ReactionButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF99A7A36E8CBA145B1599D4D41F747A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5E6EEC3E04F0B8B3A5AAC60F7DAB28B /* Pods-ReactionButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReactionButton_Tests/Pods-ReactionButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReactionButton_Tests/Pods-ReactionButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3E6D3C0863798C9B87DBF43919B03B36 /* Build configuration list for PBXNativeTarget "ReactionButton" */ = {
+		1D8C2511C1D493D666F292AA496E93FA /* Build configuration list for PBXNativeTarget "ReactionButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3C9C3F7EC698A07862AE34496864C78D /* Debug */,
-				289710AA008F9CFE2A92C95E58F9733B /* Release */,
+				1C8EB11C5D027A6A1B0943B235F2C11B /* Debug */,
+				A8583D22BF405EBEB5FC9474D3EFC193 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -793,26 +793,26 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
-				1422B121EAEAEA11307496903FA623C6 /* Release */,
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		781EDC52F2536B1B3A5867B3336821FD /* Build configuration list for PBXNativeTarget "Pods-ReactionButton_Tests" */ = {
+		A8582D19904A7E59434104742E2EEEDC /* Build configuration list for PBXNativeTarget "Pods-ReactionButton_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7DC0DC8342F203113C013564F795BE55 /* Debug */,
-				E7905B0AF2F9EB643BBA39597BF780B9 /* Release */,
+				FF99A7A36E8CBA145B1599D4D41F747A /* Debug */,
+				DE7F93362ED416C57114E4DAE86925A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7ABD8B1DC0B7D14FDB168B2DC83D2D29 /* Build configuration list for PBXNativeTarget "Pods-ReactionButton_Example" */ = {
+		C3E1500D6AD4900F180B010D6721BAE2 /* Build configuration list for PBXNativeTarget "Pods-ReactionButton_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFC56ACDC7044690941DAF31027BE3C6 /* Debug */,
-				725790F14ABC8CF3AEC73BC34003DAAB /* Release */,
+				101F9D8D3E502060D9EB27292498865E /* Debug */,
+				4663E132DF453C7FE547A52D4F9E6697 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
