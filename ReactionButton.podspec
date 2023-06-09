@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "ReactionButton"
-  s.version          = "4.0.1"
+  s.version          = "4.0.2"
   s.summary          = "Option selector that can be used as reactions"
 
   s.description      = "Totally customizable Options (Reaction) Selector based on Reactions"
