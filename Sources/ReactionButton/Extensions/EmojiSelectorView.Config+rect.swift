@@ -13,10 +13,10 @@ extension ReactionButton.Config {
     var originalPos = CGPoint(x: originalPos.x, y: originalPos.y - heightForSize - 10)
     let option = CGFloat(items)
     let width = (option + 1) * spacing + self.size * option
-    
-    if trait.horizontalSizeClass == .compact && trait.verticalSizeClass == .regular {
-      originalPos.x = (UIScreen.main.bounds.width - width) / 2
-    }
+// MARK: Remove this code to avoid open the emojis in the center of the view    
+//     if trait.horizontalSizeClass == .compact && trait.verticalSizeClass == .regular {
+//       originalPos.x = (UIScreen.main.bounds.width - width) / 2
+//     }
     
     return CGRect(origin: originalPos, size: CGSize(width: width, height: heightForSize))
   }
